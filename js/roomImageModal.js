@@ -19,7 +19,7 @@ function myfun(str) {
     var directions = getDirections(str);
 
     modal.style.display = "block";
-    modalImg.src = "photoshop/" + str + ".png";
+    modalImg.src = "floorplan/" + str + ".png";
 
     var directionsDiv = document.getElementById("directions");
     directionsDiv.textContent = "Directions: " + directions;
