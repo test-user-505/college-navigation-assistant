@@ -20,7 +20,7 @@ var inactivityTimeout;
 
 function resetTimeout() {
    clearTimeout(inactivityTimeout);
-   inactivityTimeout = setTimeout(playAudio, 70000);
+   inactivityTimeout = setTimeout(playAudio, 30000);
 }
 
 document.addEventListener("mousemove", function () {
