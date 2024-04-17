@@ -234,7 +234,7 @@ function textFun() {
     var room = parseInt(temp);
 
     if ((room == 209 && (temp == '209A' || temp == '209')) || (room == 211 && (temp == '211A' || temp == '211')) ||
-        ((room >= 101 && room <= 123) || (room >= 201 && room <= 217 && room != 209 && room != 211) ||
+        ((room >= 100 && room <= 123) || (room >= 201 && room <= 217 && room != 209 && room != 211) ||
             (room >= 301 && room <= 316) || (room >= 401 && room <= 424)) && temp.length == 3) {
         myfun(temp);
         document.getElementById('roomNo').value = "";
