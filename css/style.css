@@ -291,6 +291,7 @@
     border-radius: 5px;
     margin: auto;
     max-height: 53vh;
+    outline: none;
 }
 
 .Content {
